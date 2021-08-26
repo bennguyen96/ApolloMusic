@@ -1,9 +1,10 @@
 .createSC_div{
     padding-left: 10%;
     padding-right: 10%;
+    height: 600px;
 }
 
-.half_div{
+.left_half{
     width:50%;
     height: 580px;
     float:left;
@@ -11,48 +12,29 @@
     padding-top: 30px;
     background: var(--dialouge-background) 0% 0% no-repeat padding-box;
     background: #1D1D1D 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-.left-half-border{
+    opacity: 1;  
     border-top: 1px solid #3B86FF;
     border-left: 1px solid #3B86FF;
-    border-bottom:1px solid #3B86FF;
+    border-bottom:1px solid #3B86FF; 
 }
 
-.right-half-border{
+
+.right_half{
+    width:50%;
+    height: 580px;
+    float:left;
+    padding-left: 30px;
+    padding-top: 30px;
+    background: var(--dialouge-background) 0% 0% no-repeat padding-box;
+    background: #1D1D1D 0% 0% no-repeat padding-box;
+    opacity: 1;  
     border-top: 1px solid #3B86FF;
     border-right: 1px solid #3B86FF;
     border-bottom: 1px solid #3B86FF;
 }
 
-.create-title{
-    border-bottom: 2px solid #3B86FF;
-    color:white;
-    font-size: 28px;
-    font-family: fantasy;
-}
-
-.button-div{
-    float: left;
-    padding-right: 20px;
-}
-
-/* progress*/
-.ant-progress-outer {
-    display: inline-block;
-    width: 60%;
-    margin-right: 0;
-    padding-right: 0;
-}
-
+/* progress */
 .condition{
     color: #3B86FF;
 }
-
-.progress-title{
-    color:#ddcfcfcb;
-    font-size: 15px;
-}
-
 

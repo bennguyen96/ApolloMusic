@@ -6,8 +6,7 @@ import moment from 'moment';
 import 'antd/dist/antd.css';
 import Content from '../components/content.js';
 //customized css
-import '../css/contractDetail.module.css'
-
+import detail_sc from '../css/contractDetail.module.css'
 
 class DetailSC extends React.Component {
 
@@ -82,7 +81,7 @@ class DetailSC extends React.Component {
 
         return (
             <Content heading="Contract Details">
-            <div className="createSC_div">
+            <div className={detail_sc.createSC_div}>
 
                 <Form
                     name="basic"
@@ -96,8 +95,8 @@ class DetailSC extends React.Component {
 
                 >
 
-                    <div className='half_div left-half-border'>
-                    <div className="condition">
+                    <div className= {detail_sc.left_half}>
+                    <div className={detail_sc.condition}>
                     {progressBar}
                     </div>
 
@@ -106,7 +105,6 @@ class DetailSC extends React.Component {
                         <Form.Item
                             label="Title"
                             name="title"
-                        //rules={[{ required: true, message: 'please input the title' }]}
                         >
                             <Input placeholder={this.state.smartContract.eventName} disabled />
                         </Form.Item>
@@ -140,7 +138,7 @@ class DetailSC extends React.Component {
 
 
                     </div>
-                    <div className='half_div right-half-border'>
+                    <div className={detail_sc.right_half}>
                         <Form.Item
                             label="Fee (in ETH)"
                             name="fee"

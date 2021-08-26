@@ -223,3 +223,15 @@ h2{
     background: #292929;
     color: white;
 }
+
+/* contract detail page : progress*/
+.ant-progress-outer {
+    display: inline-block;
+    width: 60%;
+    margin-right: 0;
+    padding-right: 0;
+}
+.progress-title{
+    color:#ddcfcfcb;
+    font-size: 15px;
+}
